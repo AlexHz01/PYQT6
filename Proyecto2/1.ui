@@ -364,18 +364,11 @@ QPushButton:hover{
                <property name="frameShadow">
                 <enum>QFrame::Raised</enum>
                </property>
-               <layout class="QVBoxLayout" name="verticalLayout_5">
+               <layout class="QHBoxLayout" name="horizontalLayout_7">
                 <item>
-                 <widget class="QLineEdit" name="lineEdit">
-                  <property name="styleSheet">
-                   <string notr="true">background-color: rgb(249, 240, 107);</string>
-                  </property>
-                 </widget>
-                </item>
-                <item>
-                 <widget class="QPushButton" name="btn_buscar">
+                 <widget class="QPushButton" name="btn_menu_dos">
                   <property name="text">
-                   <string>Buscar</string>
+                   <string>Dercha</string>
                   </property>
                  </widget>
                 </item>
@@ -387,9 +380,9 @@ QPushButton:hover{
                  </widget>
                 </item>
                 <item>
-                 <widget class="QPushButton" name="btn_menu_dos">
+                 <widget class="QPushButton" name="btn_buscar">
                   <property name="text">
-                   <string>Dercha</string>
+                   <string>btn</string>
                   </property>
                  </widget>
                 </item>
@@ -416,7 +409,7 @@ QPushButton:hover{
                      <x>0</x>
                      <y>0</y>
                      <width>234</width>
-                     <height>280</height>
+                     <height>368</height>
                     </rect>
                    </property>
                    <attribute name="label">
@@ -438,7 +431,7 @@ QPushButton:hover{
                      <x>0</x>
                      <y>0</y>
                      <width>234</width>
-                     <height>280</height>
+                     <height>368</height>
                     </rect>
                    </property>
                    <attribute name="label">
@@ -455,6 +448,14 @@ QPushButton:hover{
                    </layout>
                   </widget>
                   <widget class="QWidget" name="page_11">
+                   <property name="geometry">
+                    <rect>
+                     <x>0</x>
+                     <y>0</y>
+                     <width>234</width>
+                     <height>368</height>
+                    </rect>
+                   </property>
                    <attribute name="label">
                     <string>Página 3</string>
                    </attribute>
